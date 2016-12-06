@@ -8,6 +8,11 @@
     <meta name="author" content="">
     <link rel="icon" href="../../favicon.ico">
     <title>COMP203P | Team 35</title>
+
+    <!-- Bootstrap -->
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"
+            integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+            crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css" integrity="sha384-AysaV+vQoT3kOAXZkl02PThvDr8HYKPZhNT5h/CXfBThSRXQ6jW5DO2ekP5ViFdi" crossorigin="anonymous">
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/js/bootstrap.min.js" integrity="sha384-BLiI7JTZm+JWlgKa0M0kGRpJbF2J8q+qreVrKBC47e3K6BW78kGLrCkeRX6I9RoK" crossorigin="anonymous"></script>
     <link href="./css/site.css" rel="stylesheet">
@@ -17,7 +22,8 @@
 <div class="blog-masthead">
     <nav class="navbar navbar-full navbar-dark bg-primary">
         <h4 class="navbar-brand">Team 35</h4>
-        <div class="nav navbar-nav">
+        <button class="navbar-toggler float-xs-right hidden-lg-up" type="button" data-toggle="collapse" data-target="#navbar-header" aria-controls="navbar-header" aria-expanded="false" aria-label="Toggle navigation"></button>
+        <div class="nav navbar-nav collapse navbar-toggleable-md" id="navbar-header">
             <a class="nav-item nav-link" href="#">Background</a>
             <a class="nav-item nav-link" href="#">Progress</a>
             <a class="nav-item nav-link" href="#">Prototypes</a>
@@ -25,9 +31,9 @@
             <a class="nav-item nav-link" href="#">Research</a>
             <a class="nav-item nav-link" href="#">Testing</a>
             <a class="nav-item nav-link" href="#">UI</a>
-        </div>
-        <div class="nav navbar-nav float-sm-right">
-            <a class="nav-item nav-link" href="#">GitHub</a>
+            <div class="nav navbar-nav float-sm-right">
+                <a class="nav-item nav-link" href="#">GitHub</a>
+            </div>
         </div>
     </nav>
 </div>
