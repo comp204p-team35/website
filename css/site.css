@@ -163,6 +163,17 @@ tbody tr:focus {
     background: rgba(0,0,0,.03);
 }
 
+/* Table list */
+.table-list {
+    border: none;
+    margin-left: 2rem;
+}
+
+.table-list td {
+    border: none;
+    padding: .25rem .5rem;
+}
+
 /*
  * Footer
  */
