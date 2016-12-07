@@ -166,6 +166,19 @@ h6, .h6 {
     color: rgba(0,0,0,.35)
 }
 
+/*
+ * Tables
+ */
+
+thead,
+th {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+tbody tr:hover,
+tbody tr:focus {
+    background: rgba(0,0,0,.03);
+}
 
 /*
  * Footer
